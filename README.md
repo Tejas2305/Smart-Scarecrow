@@ -1,57 +1,56 @@
-As this is my team project, we came up with the idea that the conventional scarecrows are not worth it, or they are inefficient at what they are doing. We need better ways to keep the intruders out, while still keeping it cost efficient,
-We sat down and discussed a few things.
-We found out he existing solutions for it and their key issues and the key features.
-We found out there are many out there that are providing the smart scarecrow solution, but we can classify them into two broader categories. First ones are the ones that are low cost but do not do the job properly, like lack multiple features and seem closer to the traditional ones. The second category is the ones that are extremely expensive, like they cost around 50000 inr to 70000inr. They have all the advanced features, but at such a high cost, the indian farmers won't adopt it.
-So then we discussed the features.
-After consideration of cost and other factors, we thought of keeping these features.
-1) a camera that will get the video for offline AI processing
-2) a low range but accurate sensor
-3) a long range heat sensor
-4) a water pump with a nozzle to shoot water when a bird or other intruders come close
-5) keeping it waterproof
-6) rain sensors with vibation from other motors(so that no dropllets remains on it which will reduce the false alarms for it
-7) Also, the AI will be detecting the birds and animals and based on its type, it will be using the buzzer and levels of lighting based on its type.
-8) We also have a moisture sensor for getting the moisture in the soil, and also other sensors to get moisture in the air( we are using this data to predict the weather too
-9) Keeping things simple, all the scarecrows will be covered with raincoats as waterproofing the head part, which has all the sensors, and the camera will be protected by an origami system umbrella, which will open and close using a servo motor when it rains
-10) During rain, the scarecrow won't function due to safety mechanisms. We will shut down all power supplies except for the rain sensor; all other parts will be shut down
-11) It will be working on Solar panels, and a battery, the battery will be charged by a Solar panel. In case of low charging, the battery can be swapped with a charged one, and the low-charging one can be charged at home using a power supply (for now, we are only thinking of the battery being charged using solar and not considering how they would be able to charge it at home, as its mechanism will not be designed by us right now)
-12) We will be using a GSM module to send the sms to the farmers (as many rural areas in India are not in coverage of the internet, like the farm area only), so we will be sending critical alerts through the sms, like intruder detected, Rain is predicted, High moisture level, camera malfunction, low battery
-13) main details like image of introducer and what action was taken, and will be stored in the SD card if provided, and can be taken into the app by connecting  to it using Bluetooth
-14) For now, we have decided to use the Raspberry Pi 3 b+ as we feel it is sufficient for our project, and it also has Bluetooth
+As this is my team project, we came up with the idea that the conventional scarecrows are not worth it, or they are inefficient at what they are doing. We need better ways to keep the intruders out, while still keeping it cost efficient,<br>
+We sat down and discussed a few things.<br>
+We found out he existing solutions for it and their key issues and the key features.<br>
+We found out there are many out there that are providing the smart scarecrow solution, but we can classify them into two broader categories. First ones are the ones that are low cost but do not do the job properly, like lack multiple features and seem closer to the traditional ones. The second category is the ones that are extremely expensive, like they cost around 50000 inr to 70000inr. They have all the advanced features, but at such a high cost, the indian farmers won't adopt it.<br>
+So then we discussed the features.<br>
+After consideration of cost and other factors, we thought of keeping these features.<br>
+1) a camera that will get the video for offline AI processing<br>
+2) a low range but accurate sensor<br>
+3) a long range heat sensor<br>
+4) a water pump with a nozzle to shoot water when a bird or other intruders come close<br>
+5) keeping it waterproof<br>
+6) rain sensors with vibation from other motors(so that no dropllets remains on it which will reduce the false alarms for it<br>
+7) Also, the AI will be detecting the birds and animals and based on its type, it will be using the buzzer and levels of lighting based on its type.<br>
+8) We also have a moisture sensor for getting the moisture in the soil, and also other sensors to get moisture in the air( we are using this data to predict the weather too<br>
+9) Keeping things simple, all the scarecrows will be covered with raincoats as waterproofing the head part, which has all the sensors, and the camera will be protected by an origami system umbrella, which will open and close using a servo motor when it rains<br>
+10) During rain, the scarecrow won't function due to safety mechanisms. We will shut down all power supplies except for the rain sensor; all other parts will be shut down<br>
+11) It will be working on Solar panels, and a battery, the battery will be charged by a Solar panel. In case of low charging, the battery can be swapped with a charged one, and the low-charging one can be charged at home using a power supply (for now, we are only thinking of the battery being charged using solar and not considering how they would be able to charge it at home, as its mechanism will not be designed by us right now)<br>
+12) We will be using a GSM module to send the sms to the farmers (as many rural areas in India are not in coverage of the internet, like the farm area only), so we will be sending critical alerts through the sms, like intruder detected, Rain is predicted, High moisture level, camera malfunction, low battery<br>
+13) main details like image of introducer and what action was taken, and will be stored in the SD card if provided, and can be taken into the app by connecting  to it using Bluetooth<br>
+14) For now, we have decided to use the Raspberry Pi 3 b+ as we feel it is sufficient for our project, and it also has Bluetooth<br>
 
 
 
-so what is done till now is 
-a temp ai is trained with [[Link](https://universe.roboflow.com/scarecrow-skyse/merger-ax44t/model/2)]
-mAP@50 : 74.4%
-Precision : 73.3%
-Recall : 69.9%
+so what is done till now is <br>
+a temp ai is trained with [[Link](https://universe.roboflow.com/scarecrow-skyse/merger-ax44t/model/2)]<br>
+mAP@50 : 74.4%<br>
+Precision : 73.3%<br>
+Recall : 69.9%<br>
 
-the above model was trained using roboflow 
-and we also trained our own model using ai genarted code on google colab
-but it had poor results 
-notebook: [Link](/file.ipynb)
-model details: [Link](/design_file)
-model file: [Link](/yolov11n_15K_run/weights/best.pt)
-
-
-
-a design is ready and below are its photos and accual files
-
-file: [Link](/design_file/Crop_Cop_Final.dwg)
-preview:
-![Crop_Cop_Final](/design_file/Crop_Cop_Final.mp4)
-
-dismantled / exploded view
-
-file: [Link](/design_file/Crop_Cop_Final_2.dwg)
-preview:
-![Crop_Cop_Final](/design_file/Crop_Cop_Final_2.jpg)
-
-
-and lastly here is the estimated costs
-
-
+the above model was trained using roboflow <br>
+and we also trained our own model using ai genarted code on google colab<br>
+but it had poor results <br>
+notebook: [Link](/file.ipynb)<br>
+model details: [Link](/design_file)<br>
+model file: [Link](/yolov11n_15K_run/weights/best.pt)<br>
+<br>
+<br>
+a design is ready and below are its photos and accual files<br>
+<br>
+file: [Link](/design_file/Crop_Cop_Final.dwg)<br>
+preview: [Link](design_file/Crop_Cop_Final.mp4)<br>
+<br>
+<br>
+dismantled / exploded view<br>
+<br>
+file: [Link](/design_file/Crop_Cop_Final_2.dwg)<br>
+preview:<br>
+![Crop_Cop_Final_2](/design_file/Crop_Cop_Final_2.jpg)<br>
+<br>
+<br>
+and lastly here is the estimated costs<br>
+<br>
+<br>
 | Sr | Component | Qty | Spare | Total | Link | Cost per piece | Total cost |
 |----|-----------|-----|-------|-------|------|----------------|------------|
 | 1 | **Pipe 25Mm [For Spine And Leg]** | 6 | 2 | 8 | [Link](https://rebrand.ly/pipe-25mm) | ₹50.00 | ₹400.00 |
