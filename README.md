@@ -38,7 +38,10 @@ model file: [Link](/yolov11n_15K_run/weights/best.pt)<br>
 a design is ready and below are its photos and accual files<br>
 <br>
 file: [Link](/design_file/Crop_Cop_Final.dwg)<br>
-preview: [Link](design_file/Crop_Cop_Final.mp4)<br>
+Video link: [Link](design_file/Crop_Cop_Final.mp4)<br>
+preview:<br>
+![Crop_Cop_Final](/design_file/Crop_Cop_Final1.png)<br>
+![Crop_Cop_Final](/design_file/Crop_Cop_Final2.png)<br>
 <br>
 <br>
 dismantled / exploded view<br>
