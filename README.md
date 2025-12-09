@@ -41,7 +41,7 @@ file: [Link](/design_file/Crop_Cop_Final.dwg)<br>
 Video link: [Link](design_file/Crop_Cop_Final.mp4)<br>
 preview:<br>
 ![Crop_Cop_Final](/design_file/Crop_Cop_Final1.png)<br>
-![Crop_Cop_Final](/design_file/Crop_Cop_Final2.png)<br>
+![Crop_Cop_Final](/design_file/Crop_Cop_Final.png)<br>
 <br>
 <br>
 dismantled / exploded view<br>
