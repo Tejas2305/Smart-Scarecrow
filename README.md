@@ -39,6 +39,10 @@ a design is ready and below are its photos and accual files<br>
 I know that the STEP file and IAM files designs are not exactly same as the dwg or they do not have all the parts which were made in dwg.<br>
 as mentioned by reviewer a STEP file is mandatory but i didn't knew this thats the reason i had made a dwg file, i tried to convert it to STEP directly (using export) but that was of no use as it failed due and asked me to select some mesh(i tried to solve this error but was not able to do that) so at the end i had to make the entire design again in step files and iam.I hope that should not be any issue.
 <br>
+## Note for reviwer <br>
+By mistake i had mentioned the project cost from an older evaluation in which the waterproof case was not considered. i kindly request you to modify this and approve my actual required budget which is currently $278.62.
+I would aslo like if you can consider the real time conversion from inr to usd as the exchange rates are changing to much.
+<br>
 <br>
 ## STEP File
 preview:<br>
@@ -119,5 +123,9 @@ and lastly here is the estimated costs<br>
 | 20 | **3D Printing Filament** | 2 | 0 | 2 | [Link](https://rebrand.ly/3d-printing-filament) | ₹1,270.00 | ₹2,540.00 |
 | 21 | **Mounting Brackets (Servo, Nozzle, Electronics)** | As req. | 50 | 50 | NA | ₹50.00 | ₹1,000.00 |
 | 22 | **Miscellaneous** | As req. | 1 | 1 | NA | ₹2,500.00 | ₹1,500.00 |
-| | | | | | | **Total** | **₹22,185.00** |
+| 23 | **Waterproof Case** | 1 | 0 | 1 | [Link](https://rebrand.ly/case-waterproof) | ₹3,050.00 | ₹3,050.00 |
+| | | | | | | **USD Value** | **$278.62** |
+| | | | | | | **Total** | **₹25,235.00** |
+
+*Note: USD value calculated considering 1 USD = ₹90.57.*
 
