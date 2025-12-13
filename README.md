@@ -36,7 +36,41 @@ model file: [Link](/yolov11n_15K_run/weights/best.pt)<br>
 <br>
 <br>
 a design is ready and below are its photos and accual files<br>
+I know that the STEP file and IAM files designs are not exactly same as the dwg or they do not have all the parts which were made in dwg.<br>
+as mentioned by reviewer a STEP file is mandatory but i didn't knew this thats the reason i had made a dwg file, i tried to convert it to STEP directly (using export) but that was of no use as it failed due and asked me to select some mesh(i tried to solve this error but was not able to do that) so at the end i had to make the entire design again in step files and iam.I hope that should not be any issue.
 <br>
+<br>
+## STEP File
+preview:<br>
+![Crop_Cop_Final_STEP](/design_file/STEP/image.png)<br>
+Video link: [Link](design_file/STEP/video.mp4)<br>
+<br>
+STEP Folder: [Folder link](design_file/STEP/)<br>
+STEP File: [Link](design_file/STEP/lala%20hackton.STEP)<br>
+Part files:<br>
+[Link_1](/design_file/STEP/lala%20hackton.SLDPRT)<br>
+[Link_2](/design_file/STEP/lala%20hackton2.SLDPRT)<br>
+[Link_3](/design_file/STEP/lala%20hackton3.SLDPRT)<br>
+[Link_4](/design_file/STEP/Part5.SLDPRT)<br>
+<br>
+[SLDASM File](/design_file/STEP/lala%20hackton.SLDASM)<br>
+<br>
+<br>
+### IAM File
+preview:<br>
+![Crop_Cop_Final_IAM_1](/design_file/IAM/img_1.png)<br>
+![Crop_Cop_Final_IAM_2](/design_file/IAM/img_2.png)<br>
+<br>
+IAM Folder: [Folder link](design_file/IAM/)<br>
+IAM File: [Link](design_file/IAM/lala%20hackton.iam)<br>
+Part files:<br>
+[Link_1](/design_file/IAM/lala%20hackton.ipt)<br>
+[Link_2](/design_file/IAM/lala%20hackton2.ipt)<br>
+[Link_3](/design_file/IAM/lala%20hackton3.ipt)<br>
+[Link_4](/design_file/IAM/Part5.ipt)<br>
+<br>
+<br>
+### DWG Files
 file: [Link](/design_file/Crop_Cop_Final.dwg)<br>
 Video link: [Link](design_file/Crop_Cop_Final.mp4)<br>
 preview:<br>
